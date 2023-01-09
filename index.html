@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <nav class="navbar m-4 h-[24px] bg-white flex md:flex-row-reverse justify-between align-middle ">
+        <div class="hamburger md:hidden">
+            <div class="bg-black h-[2px] w-5 rounded mt-1"></div>
+            <div class="bg-black h-[2px] w-5 rounded my-1"></div>
+            <div class="bg-black h-[2px] w-5 rounded my-1"></div>
+        </div>
+        <div class="searchbar w-5 md:order-2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z" />
+            </svg>
+        </div>
+        <div class="logo md:order-6"><img class="h-6" src="/images/microsoft-logo.png" alt="Logo"></div>
+        <div class="list hidden md:flex md:order-3">
+            <ul class="flex">
+                <li class="mx-2 cursor-pointer hover:underline hover:underline-offset-2">Microsoft 365</li>
+                <li class="mx-2 cursor-pointer hover:underline hover:underline-offset-2">Teams</li>
+                <li class="mx-2 cursor-pointer hover:underline hover:underline-offset-2">Windows</li>
+                <li class="mx-2 cursor-pointer hover:underline hover:underline-offset-2">Surface</li>
+                <li class="mx-2 cursor-pointer hover:underline hover:underline-offset-2">Xbox</li>
+                <li class="mx-2 cursor-pointer hover:underline hover:underline-offset-2">Support</li>
+            </ul>
+        </div>
+
+        <div class="order-2 all-microsoft cursor-pointer">All Microsoft
+            <i class="fa-solid fa-greater-than rotate-90 fa-2xs"></i>
+            <div class="hidden bg-[#F2F2F2] py-6">
+            <div class="pl-10 mr-20">
+                <ul>
+                    <h4>Software</h4>
+                    <li>Windows Apps</li>
+                    <li>OneDrive</li>
+                    <li>Outlook</li>
+                    <li>Skype</li>
+                    <li>OneNote</li>
+                    <li>Microsoft Teams</li>
+                </ul>
+            </div>
+            <div  class="mr-20">
+                <ul>
+                    <h4 class="w-[101px]">PCs & Devices</h4>
+                    <li>Shop Xbox</li>
+                    <li>Accessories</li>
+                </ul>
+            </div>
+            <div class="mr-20">
+                <ul>
+                    <h4>Entertainment</h4>
+                    <li>Xbox Game Pass Ultimate</li>
+                    <li>Xbox Live Gold</li>
+                    <li>Xbox games</li>
+                    <li>PC games</li>
+                    <li>Windows digital games</li>
+                </ul>
+            </div>
+            <div class="mr-20  w-[280px]">
+                <ul>
+                    <h4>Business</h4>
+                    <li>Microsoft Cloud</li>
+                    <li>Microsoft Security</li>
+                    <li>Azure</li>
+                    <li>Dynamics 365</li>
+                    <li>Microsoft 365 for business</li>
+                    <li>Microsoft Industry</li>
+                    <li>Microsoft Power Platform</li>
+                    <li>Windows 365</li>
+                </ul>
+            </div>
+            <div class="mr-20">
+                <ul>
+                    <h4>Developer & IT</h4>
+                    <li>Developer Center</li>
+                    <li>Documentation</li>
+                    <li>Microsoft Learn</li>
+                    <li>Microsoft Tech Community</li>
+                    <li>Azure Marketplace</li>
+                    <li>AppSource</li>
+                    <li>Visual Studio</li>
+                </ul>
+            </div>
+            <div class="mr-10">
+                <ul>
+                    <h4>Other</h4>
+                    <li>free downloads & security</li>
+                    <li>Education</li>
+                    <li>Microsoft Learn</li>
+                    <li>Gift Cards</li>
+                    <li>Licensing</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="kart w-6 md:order-1">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                    d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+            </svg>
+        </div>
+        <div class="user w-6 flex"><svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                    d="M399 384.2C376.9 345.8 335.4 320 288 320H224c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM512 256c0 141.4-114.6 256-256 256S0 397.4 0 256S114.6 0 256 0S512 114.6 512 256zM256 272c39.8 0 72-32.2 72-72s-32.2-72-72-72s-72 32.2-72 72s32.2 72 72 72z" />
+            </svg></div>
+
+    </nav>
+    <hr p-2>
+
+    <div class="slider">
+        <div class="left md:flex md:flex-row ">
+            <img class="" src="/images/Highlight-Surface-Pro-9-All-Colors-FY23HOL_VP4-1399x600.jfif" alt="">
+            <div class="more-about-surface ml-10 mt-5 md:absolute md:w-[37%] m-10 md:mt-36">
+                <button class="bg-white text-pink-700 py-1 px-2">New</button>
+                <h3 class="font-semibold text-2xl mt-2 mb-4 ">Suface Pro 9</h3>
+                <p>Keep spirits bright with a game-changing combo of laptop power and tablet flexibility—all in one
+                    ultra-portable device</p>
+                <button class="cursor-pointer mt-5 p-2.5 rounded-md bg-black text-white">Learn more</button>
+            </div>
+
+        </div>
+        <div class="right md:flex md:flex-row">
+            <img src="/images/Highlight-PC-GamePass-Light-FY23HOL_VP4-1399x600.jfif" alt="">
+            <div class="more-about-pass text-left ml-10 mt-5 md:absolute md:w-[37%] m-10 md:mt-36">
+                <h3 class="font-semibold text-2xl mt-5 mb-4">PC Game Pass</h3>
+                <p>Unwrap 100+ great games and EA Play, plus get your first month for ₹50. Offer available to new
+                    subscribers only.</p>
+                <button class="cursor-pointer mt-5 p-2.5 rounded-md bg-black text-white">Join Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="promo flex text-center m-14 justify-center flex-wrap">
+        <div class="promo-box flex flex-col mx-5 p-5 underline">
+            <img class="w-auto m-auto" src="/images/icon-LL-Windows-Logo-80x80.webp" alt="">
+            <p class="text-center">Choose your Microsoft 365</p>
+        </div>
+        <div class="promo-box flex flex-col mx-5 p-5 underline">
+            <img class="w-auto m-auto" src="/images/icon-LL-Tablet-Kickstand-Landscape-Mode-Fluent-80x80.webp" alt="">
+            <p>Explore Sufrace Devices</p>
+        </div>
+        <div class="promo-box flex flex-col mx-5 p-5 underline">
+            <img class="w-auto m-auto " src="/images/icon-LL-Xbox-Logo-80x80.webp" alt="">
+            <p>Buy Xbox games</p>
+        </div>
+        <div class="promo-box flex flex-col mx-5 p-5 underline">
+            <img class="w-auto m-auto" src="/images/icon-LL-Windows-Logo-80x80.webp" alt="">
+            <p>Get Windows 11</p>
+        </div>
+    </div>
+
+    <div class="products flex flex-col md:flex-row lg:flex-wrap sm:flex-row sm:flex-wrap m-auto w-[94%]">
+        <div class=" xs:mt-20 sm:w-[48%] flex flex-col lg:w-[24%]">
+            <img class=" flex m-auto w-[93%] "
+                src="/images/Product-section/Content-Card-Surface-Laptop-5-Platinum-Alcantara-FY23HOL.webp" alt="">
+            <div class="w-[90%] m-auto mt-3 lg:mt-[-70px]">
+                <button class="bg-pink-700 text-white py-0.3 px-2 mb-2 lg:mb-1">New</button>
+                <h3 class="font-semibold text-[22px]">Surface Laptop 5</h3>
+                <p>Sophisticated style and multitasking speed powered by 12th Gen Intel® Core™ i5/i7 processors built on
+                    the Intel® Evo™ platform make this the perfect gift</p>
+                <span class="flex flex-row font-semibold text-pink-700">
+                    <button class="mt-6">Learn More</button><svg class="h-3 mt-[32px] ml-3 fill-pink-700"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 512">
+                        <path
+                            d="M3.4 81.7c-7.9 15.8-1.5 35 14.3 42.9L280.5 256 17.7 387.4C1.9 395.3-4.5 414.5 3.4 430.3s27.1 22.2 42.9 14.3l320-160c10.8-5.4 17.7-16.5 17.7-28.6s-6.8-23.2-17.7-28.6l-320-160c-15.8-7.9-35-1.5-42.9 14.3z" />
+                    </svg></span>
+            </div>
+        </div>
+        <div class="sm:w-[48%] lg:w-[24%] lg:mt-20 ">
+            <img class=" flex m-auto w-[93%]" src="/images/Product-section/Content-Card-Xbox-Series-X-FY23HOL.jfif"
+                alt="">
+            <div class="w-[90%] m-auto mt-11">
+                <h3 class="font-semibold text-[22px] mt-7 lg:mt-[-12px]">Xbox Series X</h3>
+                <p class="mt-3">Give thrills that’ll last all year with the fastest, most powerful Xbox ever.</p>
+                <span class="flex flex-row font-semibold text-pink-700">
+                    <button class="mt-6">Shop Xbox Series X</button><svg class="h-3 mt-[32px] ml-3 fill-pink-700"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 512">
+                        <path
+                            d="M3.4 81.7c-7.9 15.8-1.5 35 14.3 42.9L280.5 256 17.7 387.4C1.9 395.3-4.5 414.5 3.4 430.3s27.1 22.2 42.9 14.3l320-160c10.8-5.4 17.7-16.5 17.7-28.6s-6.8-23.2-17.7-28.6l-320-160c-15.8-7.9-35-1.5-42.9 14.3z" />
+                    </svg></span>
+            </div>
+        </div>
+        <div class="my-20 sm:w-[50%] lg:w-[24%]">
+            <img class=" flex m-auto w-[93%]" src="/images/Product-section/Content-Card-Microsoft-365-FY23HOL.webp"
+                alt="">
+            <div class="m-auto w-[90%]">
+                <h3 class="font-semibold text-[22px] mt-7">Microsoft 365</h3>
+                <p class="mt-3">Apps and features to help you turn ideas into reality, stay safer and focus on the
+                    important things in life.</p>
+                <div class="flex flex-row md:flex-col font-semibold text-pink-700 lg:flex-col">
+                    <span class="w-[50%] flex flex-row lg:w-[90%]">
+                        <button class="mt-6 flex flex-row">For one person</button><svg
+                            class="h-3 mt-[32px] ml-3 fill-pink-700" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 390 512">
+                            <path
+                                d="M3.4 81.7c-7.9 15.8-1.5 35 14.3 42.9L280.5 256 17.7 387.4C1.9 395.3-4.5 414.5 3.4 430.3s27.1 22.2 42.9 14.3l320-160c10.8-5.4 17.7-16.5 17.7-28.6s-6.8-23.2-17.7-28.6l-320-160c-15.8-7.9-35-1.5-42.9 14.3z" />
+                        </svg></span>
+                    <span class="w-[50%] flex flow-row lg:w-[90%]">
+                        <button class="mt-6">For up to six people</button><svg class="h-3 mt-[32px] ml-3 fill-pink-700"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 512">
+                            <path
+                                d="M3.4 81.7c-7.9 15.8-1.5 35 14.3 42.9L280.5 256 17.7 387.4C1.9 395.3-4.5 414.5 3.4 430.3s27.1 22.2 42.9 14.3l320-160c10.8-5.4 17.7-16.5 17.7-28.6s-6.8-23.2-17.7-28.6l-320-160c-15.8-7.9-35-1.5-42.9 14.3z" />
+                        </svg></span>
+                </div>
+            </div>
+        </div>
+        <div class="sm:w-[50%] lg:w-[24%]">
+            <img class=" flex m-auto w-[93%] sm:mt-20" src="/images/Product-section/gldn-CP-Windows11-GlobalLaunch.jfif"
+                alt="">
+            <div class="w-[90%] m-auto">
+                <h3 class="font-semibold text-[22px] mt-7">Designed for life today – and tomorrow</h3>
+                <p class="mt-3">Apps and features to help you turn ideas into reality, stay safer and focus on the
+                    important things in life.</p>
+                <span class="flex flex-row font-semibold text-pink-700">
+                    <button class="mt-6">see if your PC is ready</button><svg class="h-3 mt-[32px] ml-3 fill-pink-700"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 512">
+                        <path
+                            d="M3.4 81.7c-7.9 15.8-1.5 35 14.3 42.9L280.5 256 17.7 387.4C1.9 395.3-4.5 414.5 3.4 430.3s27.1 22.2 42.9 14.3l320-160c10.8-5.4 17.7-16.5 17.7-28.6s-6.8-23.2-17.7-28.6l-320-160c-15.8-7.9-35-1.5-42.9 14.3z" />
+                    </svg></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="edge-section mt-20 lg:flex lg:flex-col">
+        <img class="sm:w-[120%] object-cover max-sm:h-72 m-auto lg:relative"
+            src="/images/gldn-MSFT-hero-Edge_VP4-1260x600.avif" alt="">
+        <div
+            class=" sm:w-[90%] m-auto bg-white lg:absolute lg:w-[33%] lg:mt-36 shadow-md p-10 px-12 md:mx-10 min-md:mt-22 sm:mt-20">
+            <h3 class="font-semibold text-[35px] mb-4 ">Microsoft Edge</h3>
+            <p>World-class performance with more privacy, more productivity and more value while you browse</p>
+            <button class="bg-black font-semibold text-white py-2 px-3 rounded-md mt-6">Download Now</button>
+        </div>
+
+    </div>
+ 
+    <div class="">
+    <h3 class="mt-20 max-lg:mb-20 text-black text-[30px] font-semibold ml-11 relative min-lg:py-[50px]">For business</h3>
+    <div class="business flex flex-col md:flex-row lg:flex-wrap sm:flex-row sm:flex-wrap m-auto w-[94%] mt-[-50px]">
+        <div class=" xs:mt-20 sm:w-[48%] flex flex-col lg:w-[24%]">  
+            <img class=" flex m-auto w-[93%] lg:mt-20 " src="/images/Product-section/Content-Card-Surface-Laptop-5-Platinum-Alcantara-FY23HOL.webp" alt="">
+            <div class="w-[90%] m-auto mt-3 lg:mt-[-70px]">
+                <button class="bg-pink-700 text-white py-0.3 px-2 lg:mb-1 mt-6 ">New</button>
+                <h3 class="font-semibold text-[22px] mt-[-4px]">Surface for Business Family</h3>
+                <p>Surface for Business devices enable work on your team's terms with flexibility, built-in security and the power they need to succeed.</p>
+                <span class="flex flex-row font-semibold text-pink-700">
+                <button class="mt-6">Learn more</button><svg class="h-3 mt-[32px] ml-3 fill-pink-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 512"><path d="M3.4 81.7c-7.9 15.8-1.5 35 14.3 42.9L280.5 256 17.7 387.4C1.9 395.3-4.5 414.5 3.4 430.3s27.1 22.2 42.9 14.3l320-160c10.8-5.4 17.7-16.5 17.7-28.6s-6.8-23.2-17.7-28.6l-320-160c-15.8-7.9-35-1.5-42.9 14.3z"/></svg></span>
+        </div></div>
+        <div class="sm:w-[48%] lg:w-[24%] lg:mt-20 ">
+                <img class=" flex m-auto w-[93%]" src="/images/Product-section/Content-Card-Xbox-Series-X-FY23HOL.jfif" alt="">
+                <div class="w-[90%] m-auto mt-11">
+                <h3 class="font-semibold text-[22px] mt-7 lg:mt-[-12px]">Get Microsoft Teams for free</h3>
+                <p class="mt-3">Online meetings, chat and shared cloud storage – all in one place.</p>
+                <span class="flex flex-row font-semibold text-pink-700">
+                    <button class="mt-6">Sign uo for free</button><svg class="h-3 mt-[32px] ml-3 fill-pink-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 512"><path d="M3.4 81.7c-7.9 15.8-1.5 35 14.3 42.9L280.5 256 17.7 387.4C1.9 395.3-4.5 414.5 3.4 430.3s27.1 22.2 42.9 14.3l320-160c10.8-5.4 17.7-16.5 17.7-28.6s-6.8-23.2-17.7-28.6l-320-160c-15.8-7.9-35-1.5-42.9 14.3z"/></svg></span></div>
+        </div>
+        <div class="my-20 sm:w-[50%] lg:w-[24%]">
+                <img class=" flex m-auto w-[93%]" src="/images/Product-section/Content-Card-Microsoft-365-FY23HOL.webp" alt="">
+                <div class="m-auto w-[90%]">
+                <h3 class="font-semibold text-[22px] mt-7">Thrive in a hybrid world</h3>
+                <p class="mt-3">Discover tools, resources and strategies to help your employees succeed in the new world of flexible work.</p>
+                <div class="flex flex-row md:flex-col font-semibold text-pink-700 lg:flex-col">
+                <span class="w-[50%] flex flex-row lg:w-[90%]">
+                    <span class="w-[50%] flex flow-row lg:w-[90%]">
+                    <button class="mt-6">Learn more</button><svg class="h-3 mt-[32px] ml-3 fill-pink-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 512"><path d="M3.4 81.7c-7.9 15.8-1.5 35 14.3 42.9L280.5 256 17.7 387.4C1.9 395.3-4.5 414.5 3.4 430.3s27.1 22.2 42.9 14.3l320-160c10.8-5.4 17.7-16.5 17.7-28.6s-6.8-23.2-17.7-28.6l-320-160c-15.8-7.9-35-1.5-42.9 14.3z"/></svg></span></div></div>
+        </div>
+        <div class="sm:w-[50%] lg:w-[24%]">
+                <img class=" flex m-auto w-[93%] sm:mt-20" src="/images/Product-section/gldn-CP-Windows11-GlobalLaunch.jfif" alt="">
+                <div class="w-[90%] m-auto">
+                <h3 class="font-semibold text-[22px] mt-7">Welcome to your Windows 365 Cloud PC</h3>
+                <p class="mt-3">Securely stream your Windows experience from the Microsoft cloud to any device.</p>
+                <span class="flex flex-row font-semibold text-pink-700">
+                    <button class="mt-6">Get it today</button><svg class="h-3 mt-[32px] ml-3 fill-pink-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 512"><path d="M3.4 81.7c-7.9 15.8-1.5 35 14.3 42.9L280.5 256 17.7 387.4C1.9 395.3-4.5 414.5 3.4 430.3s27.1 22.2 42.9 14.3l320-160c10.8-5.4 17.7-16.5 17.7-28.6s-6.8-23.2-17.7-28.6l-320-160c-15.8-7.9-35-1.5-42.9 14.3z"/></svg></span></div></div>
+    </div></div>
+
+
+    <div class="w-[90%] m-auto min-sm:ml-[55px] mb-28 max-sm:mt-20">
+        <p>Follow Microsoft
+            <span class="">
+            <i class="fa-brands fa-facebook-f fa-lg ml-6"></i>
+            <i class="fa-brands fa-twitter fa-lg ml-5"></i>
+            <i class="fa-brands fa-youtube fa-lg ml-5"></i>
+        </span>
+    </p>
+</div>
+
+<div class="bg-[#F2F2F2]">
+    <div class=" flex  flex-wrap p-10 w-[95%] m-auto">
+        <div class="mr-[50px] mb-20">
+            <ul>
+                <h4 class="font-bold text-[18px] text-[#616161]">What's new</h4>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft 365</li>
+                <li class="text-[13px] my-3 text-[#616161]">Surface Pro X</li>
+                <li class="text-[13px] my-3 text-[#616161]">Surface Pro 7</li>
+                <li class="text-[13px] my-3 text-[#616161]">Surface Laptop 3</li>
+                <li class="text-[13px] my-3 text-[#616161]">Windows 11 apps</li>
+            </ul>
+        </div>
+        <div class="mr-[50px] mb-20">
+            <ul>
+                <h4 class="font-bold text-[18px] text-[#616161]">Microsoft Store</h4>
+                <li class="text-[13px] my-3 text-[#616161]">Account profile</li>
+                <li class="text-[13px] my-3 text-[#616161]">Download Center</li>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft Store Support</li>
+                <li class="text-[13px] my-3 text-[#616161]">Returns</li>
+                <li class="text-[13px] my-3 text-[#616161]">Order tracking</li>
+            </ul>
+        </div>
+        <div class="mr-[50px] mb-20">
+            <ul>
+                <h4 class="font-bold text-[18px] text-[#616161]">Education</h4>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft in education</li>
+                <li class="text-[13px] my-3 text-[#616161]">Devices for education</li>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft Teams for Education</li>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft 365 Education</li>
+                <li class="text-[13px] my-3 text-[#616161]">Office Education</li>
+                <li class="text-[13px] my-3 text-[#616161]">Educator training and development</li>
+                <li class="text-[13px] my-3 text-[#616161]">Deals for students and parents</li>
+                <li class="text-[13px] my-3 text-[#616161]">Azure for students</li>
+            </ul>
+        </div>
+        <div class="mr-[50px] mb-20">
+            <ul>
+                <h4 class="font-bold text-[18px] text-[#616161]">Business</h4>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft Cloud</li>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft Security</li>
+                <li class="text-[13px] my-3 text-[#616161]">Azure</li>
+                <li class="text-[13px] my-3 text-[#616161]">Dynamics 365</li>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft 365</li>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft Advertising</li>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft Industry</li>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft Teams</li>
+            </ul>
+        </div>
+        <div class="mr-[50px] mb-20">
+            <ul>
+                <h4 class="font-bold text-[18px] text-[#616161]">Developer & IT</h4>
+                <li class="text-[13px] my-3 text-[#616161]">Developer Center</li>
+                <li class="text-[13px] my-3 text-[#616161]">Documentation</li>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft Learn</li>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft Tech Community</li>
+                <li class="text-[13px] my-3 text-[#616161]">Azure Marketplace</li>
+                <li class="text-[13px] my-3 text-[#616161]">AppSource</li>
+                <li class="text-[13px] my-3 text-[#616161]">Microsoft Power Platform</li>
+                <li class="text-[13px] my-3 text-[#616161]">Visual Studio</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <h4 class="font-bold text-[18px] text-[#616161]">Company</h4>
+                <li class="text-[13px] my-3 text-[#616161]">Careers</li>
+                <li class="text-[13px] my-3 text-[#616161]">About Microsoft</li>
+                <li class="text-[13px] my-3 text-[#616161]">Company news</li>
+                <li class="text-[13px] my-3 text-[#616161]">Privacy at microsoft</li>
+                <li class="text-[13px] my-3 text-[#616161]">Investors</li>
+                <li class="text-[13px] my-3 text-[#616161]">Security</li>
+                <li class="text-[13px] my-3 text-[#616161]">Sustainability</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer bg-[#F2F2F2] flex justify-evenly py-5">
+    <!-- <span class=""> -->
+    <div class=" flex flex-row mb-5">
+    <i class="fa-solid fa-earth-americas fa-lg p-2 fill-[#F2F2F2]"></i>
+    <a class="text-[12px]" href="">English (India)</a>
+</div>
+    <ul class="flex flex-wrap md:mt-30">
+        <li class="mx-3 mb-3 text-[12px]">Contact Microsoft</li>
+        <li class="mx-3 mb-3 text-[12px]">Privacy</li>
+        <li class="mx-3 mb-3 text-[12px]">Terms of use</li>
+        <li class="mx-3 mb-3 text-[12px]">Trademarks</li>
+        <li class="mx-3 mb-3 text-[12px]">About our ads</li>
+        <li class="mx-3 mb-3 text-[12px]">© Microsoft 2022</li>
+    </ul>
+<!-- </span> -->
+</div>
+
+
+    <script src="https://kit.fontawesome.com/2245626965.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
